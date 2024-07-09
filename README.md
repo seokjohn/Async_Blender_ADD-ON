@@ -1,7 +1,7 @@
-# Aysync Blender ADD-ON
+# Async Blender ADD-ON
 Example code to use async operations (websocket, request) in Blender
 
-### Asynchronous and Threads
+### Async and Threads
 When running a task synchronously in Blender, the UI locks up and freezes for the duration of the task. Therefore, long tasks should be made asynchronous. However, running asynchronous tasks in Blender can be quite troublesome. Typically, the Blender API uses a function called a timer to manage this.
 
 **Summary**
